@@ -1,0 +1,33 @@
+{
+  "name": "mini-mvcs-readdir-sync",
+  "version": "0.1.0",
+  "description": "Small library for synchronous reading the files of a folder (just the path, not its content), used for importing artifacts for the mini-mvcs lib stack",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --no-opts test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nardhar/mini-mvcs-readdir-sync.git"
+  },
+  "keywords": [
+    "readdir"
+  ],
+  "author": "Felix Carreño",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nardhar/mini-mvcs-readdir-sync/issues"
+  },
+  "homepage": "https://github.com/nardhar/mini-mvcs-readdir-sync#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1",
+    "rewiremock": "^3.14.3"
+  }
+}
